@@ -3,6 +3,11 @@
   font-size: 13px;
   padding: 10px;
 }
+.storePosition {
+  text-align: left;
+  font-size: 13px;
+  padding: 10px;
+}
 
 #linkcolor {
   color: rgba(0,0,0,0.87);
