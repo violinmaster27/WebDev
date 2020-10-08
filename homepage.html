@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <!--Imports the bootstrap library-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="linkposition" style="font-family: arial, sans-serif;">
+        <a href="images.html" id="linkcolor">Images</a>
+        <a href="advanced.html" id="linkcolor">AdvancedSearch</a>
+      </div>
+        <!--import the google logo-->
+        <img class="googlelogo" src="google_PNG19644.png" alt="Standard Google Logo">
+        <!--create the google search bar form-->
+        <form action="https://google.com/search">
+          <!--put the input field in its own div-->
+          <div class="centered">
+              <input type="text" size = "62" name="q" class="rounded-pill">
+          </div>
+          <!--the submit button placed below but in the same form-->
+          <div id="belowsearch">
+            <input type="submit" value="Google Search">
+            <!--really only works if you go to a google owned website like Youtube or gmail-->
+            <!--otherwise it gives you a redirect notice-->
+            <input type="submit" name="btnI" value="I'm Feeling Lucky">
+          </div>
+        </form>
+    </body>
+</html>

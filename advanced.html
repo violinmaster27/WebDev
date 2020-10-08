@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <!--Imports the bootstrap library-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="linkposition">
+          <a href="homepage.html" id="linkcolor">GoogleSearch</a>
+      </div>
+      <div class="advanced">
+        <h3 style="color: #d93025; font-size: 20px;">Advanced Search</h3>
+        <h5 style="font-size: 17; font-family: arial, sans-serif;">Find pages with...</h5>
+      </div>
+      <form action="https://google.com/search">
+        <!--make each text box have its own label-->
+        <label class="advanced" for="searchbox">all these words: </label>
+          <input type="text" id="searchbox" name="as_q" size="70">
+        <label class="advanced" for="searchbox">this exact word or phrase: </label>
+          <input type="text" id="searchbox" name="as_epq" size="70">
+        <label class="advanced" for="searchbox">any of these words: </label>
+          <input type="text" id="searchbox" name="as_oq" size="70">
+        <label class="advanced" for="searchbox">none of these words: </label>
+          <input type="text" id="searchbox" name="as_eq" size="70">
+        <input class="bluesearch" type="submit" value="Advanced Search">
+      </form>
+    </body>
+</html>

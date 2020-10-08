@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Images</title>
+        <!--Imports the bootstrap library-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--links to the css file-->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="linkposition">
+        <a href="homepage.html" id="linkcolor">Google Search</a>
+      </div>
+        <img class="googlelogo" src="google_PNG19644.png" alt="Standard Google logo">
+        <form action="https://www.google.com/search">
+            <!--tells that we want only an image search-->
+            <!--tbm=isch is one of the GET parameters-->
+            <div class="centered">
+                <input type="hidden" name="tbm" value="isch">
+                <input type="text" size = "62" name="q" class="rounded-pill">
+            </div>
+            <div id="belowsearch">
+                <input type="submit" value="Image Search">
+            </div>
+        </form>
+    </body>
+</html>
